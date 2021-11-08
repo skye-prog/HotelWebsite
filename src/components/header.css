@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.header_frame {
+  position: relative;
+  height: 75vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.header_frame::before {
+  content: "";
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("../img/header-1.jpeg") center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.header_content {
+  text-align: center;
+  margin: 200px auto 100px auto;
+  color: white;
+}
+.header_p1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 65px;
+}
+.header_p2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+}

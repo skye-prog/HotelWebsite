@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+.AboutUs_container {
+  background-color: #ddd;
+}
+
+.col-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+}
+.line1 {
+  width: 90px;
+  height: 20px;
+  border-bottom: 1px solid #b85d1c;
+}
+.line2 {
+  width: 170px;
+  height: 10px;
+  border-bottom: 1px solid #b85d1c;
+  margin-bottom: 2rem;
+}
+.p1 {
+  /* font-family: "Josefin Sans", sans-serif; */
+  font-weight: 300;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #555;
+}
+.p2 {
+  font-size: 1.9rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: #b85d1c;
+}
+.About_description {
+  text-align: center;
+  margin: 2.5rem 4.2rem;
+}
+.AboutUs_button {
+  color: #b85d1c;
+  display: flex;
+  align-items: center;
+  border: 1px solid #b85d1c;
+  background-color: #ddd;
+  font-size: 0.7rem;
+  padding: 10px 16px;
+}
+.col-right {
+  position: relative;
+}
+.col-right img {
+  position: absolute;
+  width: 17rem;
+  height: 11rem;
+  border: 1px solid #b85d1c;
+}
+.img1 {
+  top: 5rem;
+  right: 3rem;
+}
+.img2 {
+  top: 7rem;
+  right: 12rem;
+}
+
+.img3 {
+  top: 9rem;
+  right: 10rem;
+}
+.img4 {
+  top: 11rem;
+  right: 8rem;
+}
